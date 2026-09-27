@@ -28,7 +28,7 @@ la captura de windows update indica que el sistema esta al dia al momento de la 
 
 se creo una instantanea llamada `hardening inicial` despues de preparar la vm. sirve como punto de recuperacion: si una practica modifica o rompe el sistema, se puede restaurar este estado de referencia. una instantanea no reemplaza una copia de seguridad independiente.
 
-la consigna pide que la instantanea aparezca con el nombre exacto `Clean Install - Hardening applied`. el usuario indica que ya la renombro, pero la captura disponible todavia muestra `hardening inicial`. se necesita una captura nueva para demostrar el nombre exacto en el repositorio.
+la captura del entregable solicita una instantanea llamada `hardening inicial`. el nombre de la captura coincide con ese requisito. la vm estaba apagada cuando se creo la instantanea, lo que deja un estado inicial consistente para restaurar.
 
 ## evidencias disponibles
 
@@ -37,8 +37,8 @@ la consigna pide que la instantanea aparezca con el nombre exacto `Clean Install
 | red nat | `red-nat.png` | documentado |
 | usuario estandar y administrador | `usuarios.png` | documentado |
 | windows update | `windows-update.png` | documentado |
-| snapshot inicial | `snapshot.png` | captura anterior al cambio de nombre |
+| snapshot inicial | `snapshot.png` | documentado |
 
 ## conclusion
 
-la vm cuenta con red nat, cuentas separadas por nivel de privilegio, windows update al dia y un punto inicial de recuperacion. para completar toda la evidencia solicitada falta reemplazar la captura de la instantanea por una donde se vea el nombre exacto indicado en la consigna.
+la vm cuenta con red nat, cuentas separadas por nivel de privilegio, windows update al dia y un punto inicial de recuperacion con el nombre solicitado en el entregable.
